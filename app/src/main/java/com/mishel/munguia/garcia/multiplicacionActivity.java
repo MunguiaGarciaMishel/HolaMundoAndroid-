@@ -2,24 +2,21 @@ package com.mishel.munguia.garcia;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class RestaActivity extends AppCompatActivity {
+public class multiplicacionActivity extends AppCompatActivity {
 
     private EditText editTextX;
     private EditText editTextY;
     private EditText editTextTotal;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_resta);
+        setContentView(R.layout.activity_multiplicacion);
         editTextX = findViewById(R.id.editTextNumberX );
         editTextY = findViewById(R.id.editTextNumberY );
         editTextTotal = findViewById(R.id.editTextNumberTotal );
@@ -51,14 +48,14 @@ public class RestaActivity extends AppCompatActivity {
         {
             if( isEntero( editTextX.getText().toString() ) )
             {
-                total += getEntero( editTextX.getText().toString() );
+                total = getEntero( editTextX.getText().toString() );
             }
         }
         if( editTextY.getText().toString() != null )
         {
             if( isEntero( editTextY.getText().toString() ) )
             {
-                total -= getEntero( editTextY.getText().toString() );
+                total *= getEntero( editTextY.getText().toString() );
             }
         }
         editTextTotal.setText( String.format("%d" , total ) , TextView.BufferType.SPANNABLE );
