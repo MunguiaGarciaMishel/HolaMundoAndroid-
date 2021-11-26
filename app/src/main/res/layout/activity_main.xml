@@ -36,7 +36,12 @@
             android:layout_height="wrap_content"
             android:text="division" />
 
-    </LinearLayout>
+        <Button
+            android:id="@+id/button_operacion"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:text="Km a cm" />
 
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
