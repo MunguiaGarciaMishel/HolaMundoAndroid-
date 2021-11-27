@@ -4,24 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SumaActivity">
+    tools:context=".Cambio">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#EC9D85"
-        android:backgroundTint="#F1B3A0"
+        android:background="#D688AA"
+        android:backgroundTint="#EFB2CD"
         android:orientation="vertical">
 
         <EditText
             android:id="@+id/editTextNumberX"
-            android:layout_width="match_parent"
-            android:layout_height="76dp"
-            android:ems="10"
-            android:inputType="number" />
-
-        <EditText
-            android:id="@+id/editTextNumberY"
             android:layout_width="match_parent"
             android:layout_height="76dp"
             android:ems="10"
@@ -35,5 +28,6 @@
             android:inputType="number" />
 
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

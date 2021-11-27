@@ -3,13 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/proyecto/HolaMundoAndroid/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.240625" />
+        <entry key="..\:/proyecto/HolaMundoAndroid/app/src/main/res/drawable/ic_launcher_background.xml" value="0.240625" />
+        <entry key="..\:/proyecto/HolaMundoAndroid/app/src/main/res/layout/activity_cambio.xml" value="0.13994565217391305" />
         <entry key="..\:/proyecto/HolaMundoAndroid/app/src/main/res/layout/activity_dinero.xml" value="0.22447916666666667" />
         <entry key="..\:/proyecto/HolaMundoAndroid/app/src/main/res/layout/activity_division.xml" value="0.22282608695652173" />
-        <entry key="..\:/proyecto/HolaMundoAndroid/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/proyecto/HolaMundoAndroid/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/proyecto/HolaMundoAndroid/app/src/main/res/layout/activity_multiplicacion.xml" value="0.22282608695652173" />
         <entry key="..\:/proyecto/HolaMundoAndroid/app/src/main/res/layout/activity_operacion.xml" value="0.21557971014492755" />
         <entry key="..\:/proyecto/HolaMundoAndroid/app/src/main/res/layout/activity_resta.xml" value="0.22282608695652173" />
         <entry key="..\:/proyecto/HolaMundoAndroid/app/src/main/res/layout/activity_suma.xml" value="0.22447916666666667" />
+        <entry key="..\:/proyecto/HolaMundoAndroid/app/src/main/res/layout/activity_tiempo.xml" value="0.22447916666666667" />
       </map>
     </option>
   </component>

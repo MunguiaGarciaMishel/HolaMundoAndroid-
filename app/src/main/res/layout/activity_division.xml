@@ -9,6 +9,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#4779B1"
+        android:backgroundTint="#7DA2CD"
         android:orientation="vertical">
 
         <EditText

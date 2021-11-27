@@ -5,11 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".operacion">
-    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
 
-        <EditText android:layout_height="76dp" android:layout_width="match_parent" android:inputType="number" android:ems="10" android:id="@+id/editTextNumberX"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D688AA"
+        android:backgroundTint="#EFB2CD"
+        android:orientation="vertical">
 
-        <EditText android:layout_height="76dp" android:layout_width="match_parent" android:inputType="number" android:ems="10" android:id="@+id/editTextNumberTotal"/>
+        <EditText
+            android:id="@+id/editTextNumberX"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextNumberTotal"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:ems="10"
+            android:inputType="number" />
 
     </LinearLayout>
 

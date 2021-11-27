@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
     private Button Button_multiplicacion;
     private Button button_operacion;
     private Button button_dinero;
+    private Button button_tiempo;
+    private Button button_cambio;
 
 
     @Override
@@ -36,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
         Button_division = findViewById(R.id.Button_division);
         button_operacion = findViewById(R.id.button_operacion);
         button_dinero = findViewById(R.id.button_dinero);
+        button_tiempo = findViewById(R.id.button_tiempo);
+        button_cambio = findViewById(R.id.button_cambio);
 
         Button_suma.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,6 +83,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        button_tiempo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                abrirTiempo();
+            }
+        });
+
+        button_cambio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                abrirCambio();
+            }
+        });
+
     }
 
     private void abrirOperacion() {
@@ -86,10 +104,21 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    private void abrirTiempo() {
+        Intent intent = new Intent(this , Tiempo.class);
+        startActivity(intent);
+    }
+
     private void abrirDinero() {
         Intent intent = new Intent(this , Dinero.class);
         startActivity(intent);
     }
+
+    private void abrirCambio() {
+        Intent intent = new Intent(this , Cambio.class);
+        startActivity(intent);
+    }
+
     private void abrirSuma() {
         Intent intent = new Intent(this , SumaActivity.class);
         startActivity(intent);
